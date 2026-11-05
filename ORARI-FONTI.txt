@@ -1,0 +1,17 @@
+CLAXON — ORARI ABITUALI
+Fonte primaria: scheda Google Maps Snack bar pizzeria Claxon.
+Verificata direttamente nel browser il 5 novembre 2026.
+
+Lunedì: 06:00–20:00
+Martedì: 06:00–22:00
+Mercoledì: 06:00–22:00
+Giovedì: 06:00–22:00
+Venerdì: 06:00–22:00
+Sabato: chiuso
+Domenica: chiuso
+
+https://www.google.com/maps/place/Snack+bar+pizzeria+Claxon/@46.0488597,8.9240989,17z/data=!3m1!4b1!4m6!3m5!1s0x4784338b20c870eb:0x769c4001f35aa0af!8m2!3d46.0488597!4d8.9240989!16s%2Fg%2F1tg_dxq5
+
+Lo stato nel sito è calcolato con Intl.DateTimeFormat in Europe/Zurich.
+Non è collegato a un feed live e non conosce ferie, festività o chiusure
+straordinarie. Questa limitazione è indicata accanto agli orari nel sito.

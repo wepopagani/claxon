@@ -36,3 +36,23 @@ Il modulo di prenotazione è stato sostituito da tre link tel:+41919454040.
 Verificati nel browser i tre href e assenza di errori JavaScript.
 Favicon SVG, ICO e PNG; collegamenti dichiarati e file presenti.
 Non sono state effettuate chiamate reali durante la verifica.
+
+VERIFICHE VERSIONE 2 — 5 NOVEMBRE 2026
+- Sintassi di app.js, catalogue.js ed experience.js.
+- HTML: ID univoci, ancore valide e file collegati presenti.
+- Scene giorno selezionabili da pulsanti; didascalia e immagine sincronizzate.
+- Salto scena funzionante. Prova della fase aperitivo su telefono.
+- Cambio ricetta con fetta aperta e rotazione 180 gradi preservate.
+- Ingredienti separati ed esplorabili.
+- Ricerca risotto e caffè, ricerca senza risultati e ripristino.
+- Preferiti sincronizzati fra pizza, catalogo e dettaglio; filtro verificato.
+- Schede proposta e URL WhatsApp coerente con il prodotto. Nessun invio.
+- Galleria filtrata, apertura, freccia destra e Escape.
+- Entrambi i clip riproducono 8 secondi; l’avvio del secondo mette in pausa il primo.
+- Durata e dimensioni dei due MP4 verificate con ffprobe.
+- Mappa aggiunta su richiesta e rimossa dal comando di chiusura.
+- Orari primari letti direttamente nella scheda Google Maps.
+- Nessuno scorrimento orizzontale a 390 e 320 pixel.
+- Layout mobile corretto per mostrare la pizza subito sotto il selettore.
+- Movimento ridotto gestito da CSS e JavaScript; preferenza non emulata nel browser.
+- Nessuna chiamata o messaggio effettivo eseguito durante i test.

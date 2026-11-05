@@ -57,3 +57,9 @@ RECENSIONI GOOGLE
 Sezione con tre brevi estratti verificati direttamente su Google Maps,
 autore, stelle e fonte. Media 4,5 su 191 recensioni al 5 novembre 2026.
 Vedi RECENSIONI-FONTI.txt; i dati non sono aggiornati automaticamente.
+
+VERSIONE 2
+Vedere README.md per le nuove scene, le tre pizze, il catalogo ricercabile,
+la galleria di fotografie reali, i due clip fotografici e gli orari.
+Le note iniziali sulle quattro immagini si riferiscono alla prima versione.
+Le foto reali sono ora integrate in dist/assets/photos con fonti individuali.

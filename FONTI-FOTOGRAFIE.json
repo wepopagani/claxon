@@ -1,0 +1,166 @@
+{
+  "retrieved": "2026-11-05",
+  "origin": "Profilo Instagram pubblico Claxon, fotografie osservate e scaricate dal browser. Nessuna immagine promozionale scaduta viene presentata come offerta attuale.",
+  "photos": [
+    {
+      "id": "espresso",
+      "file": "assets/photos/espresso.webp",
+      "caption": "Il caffè del Claxon",
+      "category": "Al banco",
+      "width": 640,
+      "height": 360,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/DDRXZWxMxlc/",
+      "source_asset_name": "469088163_122207060522034005_7866766665782471540_n.jpg"
+    },
+    {
+      "id": "brindisi",
+      "file": "assets/photos/brindisi.webp",
+      "caption": "Un brindisi al Claxon",
+      "category": "Al banco",
+      "width": 640,
+      "height": 360,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/DEXXPOFu0Lw/",
+      "source_asset_name": "475736891_122216147366034005_46840256068714246_n.jpg"
+    },
+    {
+      "id": "pizza-tavolo",
+      "file": "assets/photos/pizza-tavolo.webp",
+      "caption": "Pizza al tavolo del Claxon",
+      "category": "In cucina",
+      "width": 512,
+      "height": 640,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/DEjw061Bfly/",
+      "source_asset_name": "476133278_122216864678034005_5943492168380125381_n.jpg"
+    },
+    {
+      "id": "cucina",
+      "file": "assets/photos/cucina.webp",
+      "caption": "Un piatto della cucina del Claxon",
+      "category": "In cucina",
+      "width": 640,
+      "height": 360,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/DDjuh2hs0ve/",
+      "source_asset_name": "474995074_122214990830034005_2246955811050510651_n.jpg"
+    },
+    {
+      "id": "cioccolata",
+      "file": "assets/photos/cioccolata.webp",
+      "caption": "Una pausa dolce al Claxon",
+      "category": "Al banco",
+      "width": 640,
+      "height": 360,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/DDl9wy9P_QO/",
+      "source_asset_name": "474869634_122214991364034005_8556248731293904990_n.jpg"
+    },
+    {
+      "id": "locale",
+      "file": "assets/photos/locale.webp",
+      "caption": "I tavoli e le vetrate del Claxon",
+      "category": "Il locale",
+      "width": 640,
+      "height": 360,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/DAp44bzPh48/",
+      "source_asset_name": "474574558_122214711518034005_661242090665777561_n.jpg"
+    },
+    {
+      "id": "colazione",
+      "file": "assets/photos/colazione.webp",
+      "caption": "Cornetto e caffè al Claxon",
+      "category": "Al banco",
+      "width": 640,
+      "height": 360,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/DCbStF3OnY9/",
+      "source_asset_name": "474525839_122214868382034005_4359201583425955295_n.jpg"
+    },
+    {
+      "id": "stuzzichini",
+      "file": "assets/photos/stuzzichini.webp",
+      "caption": "Un tagliere da condividere",
+      "category": "In cucina",
+      "width": 640,
+      "height": 360,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/DCFFWuPNzX6/",
+      "source_asset_name": "474524526_122214861230034005_6009450656683441376_n.jpg"
+    },
+    {
+      "id": "preparazione",
+      "file": "assets/photos/preparazione.webp",
+      "caption": "La preparazione di una pizza",
+      "category": "In cucina",
+      "width": 640,
+      "height": 360,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/C_0B5zZNEVm/",
+      "source_asset_name": "474480665_122214541412034005_3602288988721414210_n.jpg"
+    },
+    {
+      "id": "cocktail",
+      "file": "assets/photos/cocktail.webp",
+      "caption": "Un cocktail preparato al banco",
+      "category": "Al banco",
+      "width": 512,
+      "height": 640,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/C_AbJOlPjM1/",
+      "source_asset_name": "473737954_122214385016034005_4663824773665681431_n.jpg"
+    },
+    {
+      "id": "risotto",
+      "file": "assets/photos/risotto.webp",
+      "caption": "Il risotto del Claxon",
+      "category": "In cucina",
+      "width": 640,
+      "height": 427,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/DAc3IKOg27h/",
+      "source_asset_name": "474518079_122214708008034005_7340284542083033870_n.jpg"
+    },
+    {
+      "id": "fondue",
+      "file": "assets/photos/fondue.webp",
+      "caption": "Una tavola pronta per la fondue",
+      "category": "In cucina",
+      "width": 640,
+      "height": 360,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/DADQ8bji_VU/",
+      "source_asset_name": "474721488_122214686612034005_6732096016696303803_n.jpg"
+    },
+    {
+      "id": "pasta",
+      "file": "assets/photos/pasta.webp",
+      "caption": "Un piatto di pasta della cucina",
+      "category": "In cucina",
+      "width": 640,
+      "height": 427,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/DCqvdVMJxVx/",
+      "source_asset_name": "474616663_122214889754034005_6861005334959159008_n.jpg"
+    },
+    {
+      "id": "pranzo",
+      "file": "assets/photos/pranzo.webp",
+      "caption": "Una proposta per il pranzo",
+      "category": "In cucina",
+      "width": 640,
+      "height": 427,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/C_qYeD9NMX1/",
+      "source_asset_name": "474747933_122214541148034005_882614630527918746_n.jpg"
+    },
+    {
+      "id": "aperitivo",
+      "file": "assets/photos/aperitivo.webp",
+      "caption": "Un drink per il momento aperitivo",
+      "category": "Al banco",
+      "width": 512,
+      "height": 640,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/DA_GZFHOsPi/",
+      "source_asset_name": "474495894_122214727340034005_2686446683124848444_n.jpg"
+    },
+    {
+      "id": "dettaglio-locale",
+      "file": "assets/photos/dettaglio-locale.webp",
+      "caption": "La luce e i tavoli del locale",
+      "category": "Il locale",
+      "width": 640,
+      "height": 427,
+      "source": "https://www.instagram.com/snackbar.claxon_bedano/p/DAku6XFu-BX/",
+      "source_asset_name": "474119364_122214712076034005_4708053622063194098_n.jpg"
+    }
+  ]
+}
