@@ -14,7 +14,7 @@ ESPERIENZA
 - Fetta della pizza separabile e ricomponibile.
 - Storie espandibili con immagine sincronizzata.
 - Menu per categoria, preferiti locali e messaggio WhatsApp.
-- Modulo per richiedere un tavolo, con data futura, orario e persone.
+- Prenotazione telefonica: i tre pulsanti aprono la chiamata al locale.
 - Brindisi animato; audio facoltativo e spento inizialmente.
 - Contatti telefonici, WhatsApp, Instagram e indicazioni Maps.
 - Animazioni disattivate con prefers-reduced-motion.
@@ -36,8 +36,8 @@ Via d'Argine 15, 6930 Bedano
 Instagram: https://www.instagram.com/snackbar.claxon_bedano/
 
 RICHIESTE E DATI
-Il sito prepara un messaggio WhatsApp; non invia messaggi automaticamente.
-Una richiesta di tavolo non equivale a una prenotazione confermata.
+La lista delle idee prepara un messaggio WhatsApp senza inviarlo automaticamente.
+Per prenotare un tavolo, i pulsanti aprono una chiamata al +41 91 945 40 40.
 Le idee salvate restano nel browser. Nessun backend e nessun tracciamento.
 
 MODIFICHE

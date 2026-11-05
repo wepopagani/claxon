@@ -28,7 +28,7 @@ Tre estratti verificati direttamente su Google Maps, con autore, stelle e link a
 
 Immagini dei prodotti generate con AI e dichiarate illustrative. Logo tipografico provvisorio. Menu, disponibilità, prezzi, ingredienti, orari ed eventi richiedono conferma del locale.
 
-Il modulo prepara una bozza WhatsApp: non invia messaggi automaticamente e non conferma prenotazioni. I preferiti restano nel browser.
+I pulsanti per prenotare aprono la chiamata al +41 91 945 40 40. La lista dei preferiti prepara una bozza WhatsApp, senza inviare messaggi automaticamente. I preferiti restano nel browser.
 
 ## Hosting
 

@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="16" fill="#b72f26"/><text x="32" y="47" font-family="Georgia,serif" font-size="53" text-anchor="middle" fill="#f5efdf">x</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Claxon — forchetta e cucchiaio incrociati</title>
+  <rect width="64" height="64" rx="16" fill="#b72f26"/>
+  <g fill="none" stroke="#f5efdf" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 14v9c0 5 4 7 7 10l22 20M23 14v12M29 14v9c0 4-2 6-5 8"/>
+    <path d="M17 52l21-23"/>
+  </g>
+  <ellipse cx="43" cy="21" rx="6" ry="9" transform="rotate(39 43 21)" fill="#f5efdf"/>
+  <circle cx="51" cy="10" r="2" fill="#e8b45e"/>
+  <circle cx="56" cy="17" r="1.5" fill="#e8b45e"/>
+</svg>

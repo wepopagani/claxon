@@ -30,3 +30,9 @@ AGGIORNAMENTO RECENSIONI
 Verifica primaria su Google Maps: 4,5 su 191 recensioni, tre autori e voti.
 Sezione verificata nel browser a 1280px e 390px, senza overflow laterale.
 Anche il collegamento Recensioni nella navigazione è stato provato.
+
+AGGIORNAMENTO CHIAMATA E FAVICON
+Il modulo di prenotazione è stato sostituito da tre link tel:+41919454040.
+Verificati nel browser i tre href e assenza di errori JavaScript.
+Favicon SVG, ICO e PNG; collegamenti dichiarati e file presenti.
+Non sono state effettuate chiamate reali durante la verifica.
