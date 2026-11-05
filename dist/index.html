@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5efdf">
+  <meta name="description" content="Una giornata al Claxon di Bedano: colazione, cucina, pizza e aperitivo. Trova il tuo momento e chiedi un tavolo.">
+  <title>Claxon Bedano — Ogni momento ha il suo gusto</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/manrope-latin-wght.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/pizza.webp" as="image">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-moment="pizza">
+  <a class="skip" href="#main">Vai al contenuto</a>
+  <header class="header">
+    <a class="brand" href="#" aria-label="Claxon, torna all'inizio"><span>cla<b>x</b>on<span class="brand-dot">.</span></span><small>SNACK BAR · PIZZERIA · BEDANO</small></a>
+    <nav aria-label="Navigazione principale"><a href="#momenti">I nostri momenti</a><a href="#menu">Cosa ti va?</a><a href="#dove">Ci trovi qui</a></nav>
+    <button class="button red header-book" data-book>Prenota un tavolo <span>↗</span></button>
+    <button class="mobile-nav" aria-label="Apri navigazione" aria-expanded="false">☰</button>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-top"><span class="eyebrow"><i></i> IL TUO POSTO, A BEDANO.</span><span class="hero-top-note">Un buon motivo per fermarsi.</span></div>
+      <div class="moment-tabs" role="tablist" aria-label="Scegli il tuo momento">
+        <button role="tab" id="tab-coffee" aria-controls="hero-panel" aria-selected="false" tabindex="-1" data-moment="coffee"><span>01</span> Colazione <i>☀</i></button>
+        <button role="tab" id="tab-lunch" aria-controls="hero-panel" aria-selected="false" tabindex="-1" data-moment="lunch"><span>02</span> Pranzo <i>↗</i></button>
+        <button role="tab" id="tab-pizza" aria-controls="hero-panel" aria-selected="true" data-moment="pizza"><span>03</span> Pizza <i>✳</i></button>
+        <button role="tab" id="tab-aperitivo" aria-controls="hero-panel" aria-selected="false" tabindex="-1" data-moment="aperitivo"><span>04</span> Aperitivo <i>✧</i></button>
+      </div>
+      <div class="hero-panel" id="hero-panel" role="tabpanel" aria-labelledby="tab-pizza" tabindex="0">
+        <div class="hero-copy">
+          <p class="eyebrow hero-kicker">FATTA PER CONDIVIDERE</p>
+          <h1 id="hero-title">Una fetta di<br><em>felicità.</em></h1>
+          <p class="hero-description">La scelta più difficile? Decidere con chi dividere l'ultima fetta. Al gusto ci pensiamo dopo, insieme.</p>
+          <a class="button ink hero-cta" href="#menu">Trova la tua pizza <span>↗</span></a>
+          <span class="little-note">La giornata è più buona in compagnia.</span>
+        </div>
+        <div class="hero-stage" aria-label="Pizza interattiva">
+          <div class="stage-orbit orbit-one"></div><div class="stage-orbit orbit-two"></div>
+          <div class="stage-disc"></div><span class="stage-word" aria-hidden="true">BUONA.</span>
+          <div class="round-stamp" aria-hidden="true"><svg viewBox="0 0 140 140"><defs><path id="stamp-circle" d="M70,70m-51,0a51,51 0 1,1 102,0a51,51 0 1,1 -102,0"/></defs><text><textPath href="#stamp-circle">CI SI VEDE AL CLAXON · BEDANO · </textPath></text></svg><span>✳</span></div>
+          <div class="food-tilt"><div class="food-float"><div class="food-assembly"><img class="hero-food main-food" src="assets/pizza.webp" alt="Pizza illustrativa con mozzarella, crudo, pomodorini e basilico" width="1024" height="1024" fetchpriority="high"><img class="hero-food pizza-slice" src="assets/pizza.webp" alt="" width="1024" height="1024" aria-hidden="true"></div></div></div>
+          <button class="ingredient-tag tag-one" data-tip="Il piacere comincia dal primo morso."><span>+</span> Il primo morso</button>
+          <button class="ingredient-tag tag-two" data-tip="Scegli con chi condividerla. Oppure tienila tutta per te."><span>+</span> Da condividere</button>
+          <button class="slice-button" aria-pressed="false"><span>↗</span> Prendi una fetta</button>
+          <span class="stage-credit">Immagine illustrativa</span><span class="stage-number" aria-hidden="true">03 / 04</span>
+        </div>
+      </div>
+      <div class="hero-bottom"><a href="#momenti" class="scroll-link"><span>↓</span> C'è un'intera giornata da scoprire</a><div class="hero-controls"><button aria-label="Momento precedente" class="prev">←</button><span class="moment-counter">03 <i>/ 04</i></span><button aria-label="Momento successivo" class="next">→</button></div></div>
+    </section>
+    <div class="marquee" aria-hidden="true"><div><span>BUONGIORNO</span> ✳ <span>BUON APPETITO</span> ✳ <span>ANCORA UNA FETTA</span> ✳ <span>CIN CIN</span> ✳ <span>BUONGIORNO</span> ✳ <span>BUON APPETITO</span> ✳ <span>ANCORA UNA FETTA</span> ✳ <span>CIN CIN</span> ✳ </div></div>
+    <section class="moments section" id="momenti" aria-labelledby="moments-title">
+      <div class="section-top reveal"><span class="eyebrow">01 — IL RITMO DEL CLAXON</span><span class="small-script">fai con calma.</span></div>
+      <div class="moments-heading reveal"><h2 id="moments-title">Le ore passano.<br>Le buone abitudini <em>restano.</em></h2><p>Un caffè prima di cominciare.<br>Una pausa fatta bene. Un tavolo con gli amici.<br>Trova il tuo momento, noi ti aspettiamo qui.</p></div>
+      <div class="day-explorer">
+        <div class="day-picture"><div class="day-glow"></div><span class="day-ghost" aria-hidden="true">01</span><img src="assets/coffee.webp" alt="Colazione illustrativa con caffè, cornetti e succo" width="1024" height="1024" loading="lazy"><span class="day-caption">Il buongiorno, quello buono.</span></div>
+        <div class="day-stories">
+          <button class="day-story active" data-scene="coffee" aria-pressed="true"><span class="story-index">01 /</span><span><small>SI COMINCIA BENE</small><strong>Prima il caffè.</strong><span class="story-description">Il profumo dei cornetti, una tazzina e due chiacchiere. Il resto può aspettare.</span></span><span class="story-arrow">↗</span></button>
+          <button class="day-story" data-scene="lunch" aria-pressed="false"><span class="story-index">02 /</span><span><small>LA PAUSA CHE CI VUOLE</small><strong>Stacca. Siediti. Gusta.</strong><span class="story-description">La cucina entra in scena: scopri cosa propone oggi il Claxon.</span></span><span class="story-arrow">↗</span></button>
+          <button class="day-story" data-scene="pizza" aria-pressed="false"><span class="story-index">03 /</span><span><small>UN GIRO DI PIZZA</small><strong>Una fetta tira l'altra.</strong><span class="story-description">C'è chi parte dal centro e chi dal cornicione. Basta essere allo stesso tavolo.</span></span><span class="story-arrow">↗</span></button>
+          <button class="day-story" data-scene="aperitivo" aria-pressed="false"><span class="story-index">04 /</span><span><small>LA PARTE PIÙ SOCIALE</small><strong>Resti per un cin cin?</strong><span class="story-description">Qualcosa da bere, qualcosa da stuzzicare. E nessuna voglia di andare via.</span></span><span class="story-arrow">↗</span></button>
+        </div>
+      </div>
+    </section>
+    <section class="menu section" id="menu" aria-labelledby="menu-title">
+      <div class="section-top reveal"><span class="eyebrow">02 — SEGUI L'APPETITO</span><span>Dal primo caffè all'ultimo cin cin.</span></div>
+      <div class="menu-heading reveal"><h2 id="menu-title">Oggi, cosa <em>ti va?</em></h2><p>Sfoglia le idee, salva quello che ti ispira<br>e chiedici le proposte del momento.</p></div>
+      <div class="menu-filters" role="tablist" aria-label="Categorie delle proposte"><button role="tab" aria-selected="true" id="filter-pizza" aria-controls="menu-panel" data-category="pizza">Pizza <span>↗</span></button><button role="tab" aria-selected="false" tabindex="-1" id="filter-coffee" aria-controls="menu-panel" data-category="coffee">Colazione <span>↗</span></button><button role="tab" aria-selected="false" tabindex="-1" id="filter-lunch" aria-controls="menu-panel" data-category="lunch">Cucina <span>↗</span></button><button role="tab" aria-selected="false" tabindex="-1" id="filter-aperitivo" aria-controls="menu-panel" data-category="aperitivo">Aperitivo <span>↗</span></button></div>
+      <div class="menu-content" id="menu-panel" role="tabpanel" aria-labelledby="filter-pizza" tabindex="0"><div class="menu-art"><span class="menu-art-word" aria-hidden="true">PIZZA!</span><img src="assets/pizza.webp" alt="Pizza illustrativa" width="1024" height="1024" loading="lazy"><span class="menu-art-note">scegli la tua voglia.</span></div><div class="menu-list"></div></div>
+      <div class="menu-bottom"><p>Una selezione ispirata alle immagini del locale.<br>Menu, prezzi e disponibilità aggiornati su richiesta.</p><button class="text-button" data-open-wishlist>Le mie idee <span class="wish-count">0</span> ↗</button></div>
+    </section>
+    <section class="aperitivo-feature" aria-labelledby="aperitivo-title">
+      <div class="aperitivo-art"><div class="aperitivo-halo"></div><span class="aperitivo-backword" aria-hidden="true">CIN CIN!</span><img src="assets/aperitivo.webp" alt="Tagliere e spritz illustrativi" width="1024" height="1024" loading="lazy"><button class="cheers-button" aria-label="Facciamo un brindisi">✳ <span>Tocca per un cin cin</span></button></div>
+      <div class="aperitivo-copy reveal"><span class="eyebrow">03 — MEGLIO IN COMPAGNIA</span><h2>“Solo uno.”<br><em>Come no.</em></h2><p>Le chiacchiere si allungano, il tagliere si accorcia. Il bello dell'aperitivo è proprio questo.</p><button class="button cream" data-book>Metti insieme la compagnia <span>↗</span></button><span class="feature-note">Per aperitivi e gruppi, raccontaci la tua idea.</span></div>
+    </section>
+    <section class="contact section" id="dove" aria-labelledby="contact-title">
+      <div class="section-top reveal"><span class="eyebrow">04 — CI SI VEDE QUI</span><span class="small-script">a due passi da te.</span></div>
+      <div class="contact-grid"><div class="contact-copy reveal"><h2 id="contact-title">Il prossimo giro<br>lo facciamo <em>qui.</em></h2><p>Claxon · Snack Bar Pizzeria<br>Via d'Argine 15, 6930 Bedano</p><a class="text-button" href="https://www.google.com/maps/search/?api=1&query=Claxon+Via+d%27Argine+15+Bedano" target="_blank" rel="noopener">Portami al Claxon <span>↗</span></a><div class="contact-lines"><a href="tel:+41919454040"><small>FACCIAMO DUE PAROLE</small><strong>091 945 40 40 ↗</strong></a><a href="https://wa.me/41786293164" target="_blank" rel="noopener"><small>ANCHE SU WHATSAPP</small><strong>078 629 31 64 ↗</strong></a></div><p class="contact-note">Scrivici per orari, menu del giorno e disponibilità.</p></div><div class="booking-card reveal"><span class="booking-star" aria-hidden="true">✳</span><span class="eyebrow">UN TAVOLO PER TE</span><h3>Tu porta<br>l'appetito.</h3><p>Al numero di amici ci pensi tu.<br>Al tavolo ci pensiamo insieme.</p><button class="button ink" data-book>Chiedi un tavolo <span>↗</span></button><span>La richiesta si apre su WhatsApp.</span></div></div>
+    </section>
+    <footer><div class="footer-top"><a class="brand footer-brand" href="#"><span>cla<b>x</b>on.</span><small>SNACK BAR · PIZZERIA · BEDANO</small></a><p>Ogni momento<br>ha il suo gusto.</p><a href="https://www.instagram.com/snackbar.claxon_bedano/" target="_blank" rel="noopener">Ci trovi anche su Instagram ↗</a></div><div class="footer-bottom"><span>© <span id="year">2026</span> Claxon · Bedano</span><button class="credits-button">Informazioni sulla bozza</button><button class="sound-button" aria-pressed="false">Audio off ◌</button><a href="#">Torna su ↑</a></div></footer>
+  </main>
+  <aside class="wishlist-bar" hidden aria-label="Le tue idee"><span><b class="wish-count">0</b> idee da gustare</span><button data-open-wishlist>Rivedile ↗</button></aside>
+  <div class="toast" role="status" aria-live="polite"></div><div class="celebration" aria-hidden="true"></div>
+  <dialog id="booking-dialog" aria-labelledby="booking-title"><button class="dialog-close" aria-label="Chiudi prenotazione">×</button><span class="eyebrow">CI SI VEDE AL CLAXON</span><h2 id="booking-title">Tienimi un <em>posto.</em></h2><p>Prepariamo un messaggio per il locale.<br>Il tavolo sarà riservato solo dopo la loro conferma.</p><form id="booking-form"><label>Come ti chiami?<input name="name" autocomplete="given-name" placeholder="Il tuo nome" maxlength="60" required></label><div class="form-row"><label>Che giorno?<input type="date" name="date" required></label><label>A che ora?<input type="time" name="time" required></label></div><div class="form-row"><label>Quanti siete?<select name="people"><option>2 persone</option><option>1 persona</option><option>3 persone</option><option>4 persone</option><option>5 persone</option><option>6 persone</option><option>7 persone</option><option>8 persone</option><option>Un gruppo più grande</option></select></label><label>Per quale momento?<select name="occasion"><option>Pizza</option><option>Colazione</option><option>Pranzo</option><option>Aperitivo</option></select></label></div><label>Qualcosa da aggiungere?<textarea name="note" rows="2" maxlength="500" placeholder="Una ricorrenza, una richiesta…"></textarea></label><button class="button red" type="submit">Continua su WhatsApp <span>↗</span></button></form></dialog>
+  <dialog id="wishlist-dialog" aria-labelledby="wishlist-title"><button class="dialog-close" aria-label="Chiudi le tue idee">×</button><span class="eyebrow">SEGUI IL GUSTO</span><h2 id="wishlist-title">Le tue <em>idee.</em></h2><p>Una lista di desideri da condividere con il locale.</p><div class="wishlist-items"></div><a class="button red wishlist-send" target="_blank" rel="noopener" href="https://wa.me/41786293164">Chiedi disponibilità <span>↗</span></a><p class="dialog-fine">Questo messaggio è una richiesta di informazioni, non un ordine.</p></dialog>
+  <dialog id="credits-dialog" aria-labelledby="credits-title"><button class="dialog-close" aria-label="Chiudi informazioni">×</button><span class="eyebrow">PROGETTO CLAXON</span><h2 id="credits-title">Una prima <em>visione.</em></h2><p>Questa è una bozza di presentazione. Le immagini dei prodotti sono illustrative e generate con AI, ispirate ai riferimenti condivisi. Non sono fotografie dei piatti effettivamente serviti.</p><p>Proposte, ricette, prezzi, orari ed eventi devono essere confermati dal locale. I contatti provengono dal materiale fornito.</p><p>I preferiti restano soltanto in questo browser, se il salvataggio locale è disponibile. Il sito non invia moduli: apre una bozza di messaggio su WhatsApp.</p></dialog>
+</body>
+</html>

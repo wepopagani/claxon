@@ -1,0 +1,54 @@
+CLAXON BEDANO — PRIMA VERSIONE INTERATTIVA
+5 novembre 2026
+
+IL SITO
+dist/ contiene il sito completo, senza dipendenze da installare.
+Aprire un terminale in questa cartella ed eseguire:
+python3 -m http.server 8017 --directory dist
+Poi visitare http://localhost:8017
+
+ESPERIENZA
+- Quattro scene: colazione, pranzo, pizza, aperitivo.
+- Selettori, frecce, tastiera e cambio con swipe sul prodotto.
+- Prodotto con movimento morbido e inclinazione al mouse.
+- Fetta della pizza separabile e ricomponibile.
+- Storie espandibili con immagine sincronizzata.
+- Menu per categoria, preferiti locali e messaggio WhatsApp.
+- Modulo per richiedere un tavolo, con data futura, orario e persone.
+- Brindisi animato; audio facoltativo e spento inizialmente.
+- Contatti telefonici, WhatsApp, Instagram e indicazioni Maps.
+- Animazioni disattivate con prefers-reduced-motion.
+
+CONTENUTI DA CONFERMARE
+Le quattro immagini sono illustrative, generate con il tool integrato
+imagegen e ottimizzate in WebP con trasparenza. Non sono fotografie dei piatti
+del locale. Gli screenshot erano visibili nella chat ma i file originali
+indicati sul Desktop non erano più presenti durante la realizzazione.
+Il logo è una composizione tipografica provvisoria, da sostituire con il logo
+originale. Tutte le proposte sono ispirazioni, senza prezzi inventati.
+Menu, ingredienti, disponibilità, orari, appuntamenti ed eventuali recensioni
+richiedono conferma. Nessuna recensione fittizia è stata inserita.
+
+CONTATTI USATI
+Telefono: +41 91 945 40 40
+WhatsApp: +41 78 629 31 64 (dalla locandina allegata)
+Via d'Argine 15, 6930 Bedano
+Instagram: https://www.instagram.com/snackbar.claxon_bedano/
+
+RICHIESTE E DATI
+Il sito prepara un messaggio WhatsApp; non invia messaggi automaticamente.
+Una richiesta di tavolo non equivale a una prenotazione confermata.
+Le idee salvate restano nel browser. Nessun backend e nessun tracciamento.
+
+MODIFICHE
+dist/app.js: scene, testi e proposte del menu.
+dist/index.html: struttura, contatti e moduli.
+dist/style.css: design, animazioni e responsive.
+dist/assets/: immagini e font con relative licenze OFL.
+.openai/hosting.json: identità del Site, da conservare per gli aggiornamenti.
+
+HIGGSFIELD
+Non necessario per questa versione: le interazioni sono realizzate nel codice.
+Una futura ripresa di brindisi o preparazione della pizza può essere aggiunta
+partendo dalle fotografie originali del locale. Evitare video con mani o cibo
+deformati; mantenere il cambio delle scene e il menu interattivi nel codice.

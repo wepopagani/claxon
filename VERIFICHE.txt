@@ -1,0 +1,27 @@
+CLAXON — VERIFICHE 5 NOVEMBRE 2026
+
+Verifiche eseguite nella pagina locale con browser integrato:
+- desktop 1440x900 e vista iniziale del pannello circa 1063px;
+- mobile 390x844 e 320x740;
+- nessuno scorrimento orizzontale a 390px e 320px dopo le correzioni;
+- quattro scene hero, sincronizzazione testo, immagine e selettore;
+- cambi rapidi con ultima scelta rispettata;
+- selezione successiva dalla tastiera con freccia destra;
+- separazione e ricomposizione della fetta;
+- cambio immagine nelle storie della giornata;
+- filtro Cucina e relativo risotto caricati;
+- aggiunta, riepilogo e rimozione di un preferito;
+- URL WhatsApp con testo codificato e numero corretto;
+- apertura dialog prenotazione e chiusura con Escape;
+- campo data con min 2026-11-05 e data precedente non valida;
+- nessun errore o warning nel log browser al momento del controllo.
+
+Controlli statici:
+- sintassi JavaScript con node --check;
+- ID HTML univoci, ancore interne e file collegati presenti;
+- quattro immagini WebP con canale alpha;
+- media query per movimento ridotto presente (non emulata nel browser);
+- sito e asset complessivi circa 1,2 MB.
+
+Le richieste WhatsApp non sono state inviate. Non è stata effettuata una
+prenotazione al locale. La disponibilità reale dei prodotti non è verificata.
