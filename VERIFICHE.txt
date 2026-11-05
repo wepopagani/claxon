@@ -25,3 +25,8 @@ Controlli statici:
 
 Le richieste WhatsApp non sono state inviate. Non è stata effettuata una
 prenotazione al locale. La disponibilità reale dei prodotti non è verificata.
+
+AGGIORNAMENTO RECENSIONI
+Verifica primaria su Google Maps: 4,5 su 191 recensioni, tre autori e voti.
+Sezione verificata nel browser a 1280px e 390px, senza overflow laterale.
+Anche il collegamento Recensioni nella navigazione è stato provato.

@@ -52,3 +52,8 @@ Non necessario per questa versione: le interazioni sono realizzate nel codice.
 Una futura ripresa di brindisi o preparazione della pizza può essere aggiunta
 partendo dalle fotografie originali del locale. Evitare video con mani o cibo
 deformati; mantenere il cambio delle scene e il menu interattivi nel codice.
+
+RECENSIONI GOOGLE
+Sezione con tre brevi estratti verificati direttamente su Google Maps,
+autore, stelle e fonte. Media 4,5 su 191 recensioni al 5 novembre 2026.
+Vedi RECENSIONI-FONTI.txt; i dati non sono aggiornati automaticamente.
