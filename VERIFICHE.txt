@@ -56,3 +56,10 @@ VERIFICHE VERSIONE 2 — 5 NOVEMBRE 2026
 - Layout mobile corretto per mostrare la pizza subito sotto il selettore.
 - Movimento ridotto gestito da CSS e JavaScript; preferenza non emulata nel browser.
 - Nessuna chiamata o messaggio effettivo eseguito durante i test.
+
+AGGIORNAMENTO MULTILINGUE - 9 NOVEMBRE 2026
+- 369 voci, quattro traduzioni per ogni testo italiano; parametri e copertura del catalogo verificati con node tests/i18n.test.mjs.
+- Controllo browser delle cinque lingue, ricerca tradotta, dettaglio proposta e link WhatsApp, conservazione dei preferiti e filtri galleria.
+- Controllo del cambio lingua mantenendo Margherita, fetta separata, ingrediente pomodoro e rotazione -11 gradi.
+- Preferenza lingua conservata al nuovo caricamento; selettore utilizzabile con frecce, Home/End, Invio ed Escape.
+- Prenotazione telefonica conservata in tutte le lingue.

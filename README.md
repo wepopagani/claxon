@@ -14,6 +14,18 @@ Sito interattivo per Snack Bar Pizzeria Claxon: colazione, pranzo, pizza e aperi
 - Orari verificati su Google Maps e stato aperto/chiuso nel fuso Europe/Zurich. Mappa caricata su richiesta.
 - Prenotazione telefonica, come richiesto: tutti i pulsanti per il tavolo usano `tel:+41919454040`.
 
+## Cinque lingue
+
+Italiano, spagnolo, francese, tedesco e inglese, con selettore in alto a destra utilizzabile anche da tastiera. La lingua si conserva nel browser e può essere condivisa con `?lang=it`, `es`, `fr`, `de` o `en`.
+
+Sono tradotti anche menu e ricerca, ingredienti, preferiti, dettagli, didascalie, orari, messaggi WhatsApp, metadati e testi accessibili. Gli estratti delle recensioni sono contrassegnati come traduzioni nelle altre lingue. Il cambio mantiene ricetta, rotazione, fetta e filtri; i pulsanti per il tavolo chiamano sempre il locale.
+
+Le traduzioni sono in `dist/translations.js`; `dist/i18n.js` gestisce selezione e contenuti dinamici, `dist/languages.css` il selettore e gli adattamenti responsive. Verifica del catalogo e dei parametri delle traduzioni:
+
+```sh
+node tests/i18n.test.mjs
+```
+
 ## Anteprima locale
 
 ```sh

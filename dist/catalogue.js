@@ -331,3 +331,5 @@ window.CLAXON_DATA = {
     }
   }
 };
+
+ClaxonI18n.localise(window.CLAXON_DATA);
